@@ -1,0 +1,93 @@
+/* src/components/BriefwahlForm.css */
+.contact-form-bg {
+    background: #f9f9f9;
+  }
+
+/* General container for the form */
+.form-container {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    /* box-shadow: 0 4px 12px #0000001a; */
+    margin: 0px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.form-title {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+/* Styling the form */
+.briefwahl-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+  gap: 20px; /* Add space between form fields */
+}
+
+/* Each input field group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Input field styling */
+.form-input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus {
+  border-color: #2e6f5f;
+}
+.submit-button {
+    background-color: #008939;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background-color: var(--primary-color);
+  }
+
+/* Responsive design for mobile screens */
+@media (max-width: 768px) {
+  .briefwahl-form {
+    grid-template-columns: 1fr; /* Stack form fields in a single column on smaller screens */
+  }
+
+  .form-title {
+    font-size: 24px;
+  }
+
+  .form-input {
+    padding: 10px;
+  }
+
+  .submit-button {
+    padding: 12px;
+    font-size: 16px;
+  }
+}

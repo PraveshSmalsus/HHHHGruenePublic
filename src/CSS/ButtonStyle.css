@@ -1,0 +1,46 @@
+/* ButtonStyles.css */
+.submit-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  .submit-button.disabled {
+    background-color: #d3d3d3; /* Gray background */
+    color: #b0b0b0;  /* Light gray text */
+  }
+  
+  .submit-button:hover:not(:disabled) {
+    background-color: #45a049; /* Darker green when hovered */
+  }
+
+  /* Add this CSS to your styles */
+.infoBox .email-container {
+  display: inline-block;
+  }
+  span.email-container > a {word-break: break-all;}
+  .copy-icon {
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .copy-icon:hover {
+    color: #3498db;
+  }
+  
+  .copy-icon:active {
+    color: #2980b9;
+  }
+  
+
+  
+  

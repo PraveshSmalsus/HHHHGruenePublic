@@ -1,0 +1,107 @@
+/* ContactForm.css */
+.contact-form-bg {
+  background: #f9f9f9;
+}
+.contact-form-container {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  /* box-shadow: 0 4px 12px #0000001a; */
+  margin: 0px auto;
+  max-width: 600px;
+  padding: 50px 0;
+  }
+  
+  .contact-form-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .form-input {
+    width: 100%;
+    /* padding: 12px; */
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0px !important;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #2e6f5f;
+    outline: none;
+  }
+  
+  textarea.form-input {
+    resize: vertical;
+  }
+  
+  .checkbox-group {
+    margin-bottom: 15px;
+  }
+  
+  .checkbox-label {
+    font-size: 0.9em;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .privacy-policy-link {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .privacy-policy-link:hover {
+    text-decoration: underline;
+  }
+  textarea#Comment {
+    min-height: 100px;
+}
+  .submit-button {
+    background-color: #008939;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: var(--primary-color);
+  }
+  form.contact-form textarea#message {
+    height: auto;
+}
+.error-text {
+  color: #ed143d;              /* Set the text color to red */
+  font-size: 14px;         /* Optional: Adjust font size */
+  font-weight: bold;       /* Optional: Make the text bold */
+  margin-top: 10px;        /* Optional: Add spacing above the error message */
+}
+.contact-form-container label.captcha-label {
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-left: 15px;
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+/*******/

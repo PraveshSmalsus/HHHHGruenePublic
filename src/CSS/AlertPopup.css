@@ -1,0 +1,57 @@
+.alert-popup {
+  background-color: #ffffff;
+  border-radius: 0;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+  position: fixed;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 400px;
+  z-index: 99999;
+  }
+  
+  .alert-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .alert-title {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    opacity: 0.7;
+  }
+  
+  .alert-body {
+    padding: 25px;
+    font-size: 18px;
+    color: #333;
+    background: #fff;
+    text-align: center;
+  }
+  .alert-backdrop {
+    background: rgb(0 0 0 / 20%);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    pointer-events: auto; 
+    position: fixed;
+}
