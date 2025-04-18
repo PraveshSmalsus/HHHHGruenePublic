@@ -21,6 +21,9 @@ import ContactForm from './ContactForm';
 import BriefwahlElection from './BriefwahlElection';
 import Botschaftskuriere from './Botschaftskuriere';
 import Kandidatinnen from './Kandidatinnen';
+import ConsentManager from './KlaroConsent';
+import './Klaro-config'; // Ensure the Klaro config is imported
+import 'klaro/dist/klaro.css'; // Include Klaro styles
 // import MatomoIntegration from './MatomoIntegration';
 
 // import './klaroConfig'; // Import your Klaro configuration
@@ -60,7 +63,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-
+    <ConsentManager />
     {/* <MatomoIntegration /> */}
     <RouterProvider router={router} />
   </React.StrictMode>
