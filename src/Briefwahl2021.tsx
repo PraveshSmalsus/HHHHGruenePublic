@@ -665,7 +665,7 @@ const Briefwahl2021 = () => {
   return (
     <>
       <Helmet>
-        <title>Gruene Weltweit - Bundestagswahl 2025</title>
+        <title>Gruene Weltweit - Bundestagswahl - Briefwahl Ausland</title>
       </Helmet>
       <div
         style={{
